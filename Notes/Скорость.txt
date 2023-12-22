@@ -1,0 +1,88 @@
+Stack
+LIFO: Last-In-First-Out
+Push: O(1)
+Pop: 0(1)
+Top: 0(1)
+IsEmpty: 0(1)
+ 
+Queue
+FIFO: First-In-First-Out
+Push: 0(1)
+Pop: 0(1)
+Front: 0(1)
+Back: 0(1)
+Empty: 0(1)
+Size: 0(1)
+ 
+Deque
+Add back ans front: 0(1)
+Delete back and front: 0(1)
+ 
+Linked List
+Add Front(head): 0(1)
+Add Back(Tail) : 0(n), нужно пройтись указателем по всему списку 
+Find element: 0(n), тоже требует прохода по списку 
+
+Double Linked List
+Add Front(head): 0(1)
+Add Back(Tail): 0(1) у нас есть постоянный прямой доступ к концу 
+Find element: 0(n), все так же нужно пройтись по элементам, чтобы найти нужный
+ 
+Binary Search
+0(lon n)
+ 
+Binary Search Tree BST
+Best Case (Balanced Tree): 0(log n)
+Average Case: 0(log n)
+Worst Case(Unbalanced Tree): 0(n), потому что дерево когда дерево полностью несбалансировано(Например каждый узел имеет только одного потомка) - BST ставновится Linked List
+ 
+Heap
+ 
+Heap Sort
+O(n log n ) = building the heap 0(n), Heapify process 0(log n)
+Always 0(n log n )
+ 
+Quick Sort
+Best & Average 0(n log n)
+Worst Case 0(n^2)
+ 
+Merge Sort
+0(n log n) for all cases
+ 
+Hash Tables
+Average case: add, delete, find 0(1)
+Worst Case: add, delete, find 0(n) 
+ 
+Rabin Karp
+Best, Average: 0(n+m)
+Worst Case: 0(nm) 
+ 
+KMP
+0(n + m) for all
+ 
+BFS
+0(V + E)
+ 
+DFS
+0(V + E)
+ 
+Topological Sort
+0(V + E)
+ 
+Kruskal
+0(E log E)
+0(E log V)
+ 
+Prima
+Using a Priority Queque (Min-Heap) with Adjacency List 0(E log V)
+Using an Array (or Simple Binary Min-Heap) with an Adjacency Matrix 0(V^2)
+ 
+Dijkstra
+Using a Min-Heap/Priority Queue with an Adjacency List 0((V + E) log V)
+Using an Array with an Adjacency Matrix 0(V^2)
+ 
+Floyd
+0(V^3)
+ 
+Ford Bellman
+0(V * E)
